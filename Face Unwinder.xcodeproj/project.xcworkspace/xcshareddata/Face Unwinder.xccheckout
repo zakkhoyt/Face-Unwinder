@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7DA0712E-36E1-4CF4-B388-33BD436A4598</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Face Unwinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E758A328-562A-4D11-8149-0E8970AD167D</key>
+		<string>ssh://github.com/zakkhoyt/Face-Unwinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Face Unwinder.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E758A328-562A-4D11-8149-0E8970AD167D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zakkhoyt/Face-Unwinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E758A328-562A-4D11-8149-0E8970AD167D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E758A328-562A-4D11-8149-0E8970AD167D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Face-Unwinder</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,5 +1,5 @@
 //
-//  VWWViewController.h
+//  VWWConfigViewController.h
 //  Face Unwinder
 //
 //  Created by Zakk Hoyt on 10/8/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VWWViewController : UIViewController
+@interface VWWConfigViewController : UIViewController
 
 @end
