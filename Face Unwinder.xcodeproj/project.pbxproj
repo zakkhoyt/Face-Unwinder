@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C66E514F1803ED07002DCA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66E514E1803ED07002DCA40 /* Foundation.framework */; };
+		C66E51511803ED07002DCA40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66E51501803ED07002DCA40 /* CoreGraphics.framework */; };
+		C66E51531803ED07002DCA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66E51521803ED07002DCA40 /* UIKit.framework */; };
+		C66E51591803ED07002DCA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C66E51571803ED07002DCA40 /* InfoPlist.strings */; };
+		C66E515B1803ED07002DCA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E515A1803ED07002DCA40 /* main.m */; };
+		C66E515F1803ED07002DCA40 /* VWWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E515E1803ED07002DCA40 /* VWWAppDelegate.m */; };
+		C66E51621803ED07002DCA40 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66E51601803ED07002DCA40 /* Main_iPhone.storyboard */; };
+		C66E51651803ED07002DCA40 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66E51631803ED07002DCA40 /* Main_iPad.storyboard */; };
+		C66E51681803ED07002DCA40 /* VWWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E51671803ED07002DCA40 /* VWWViewController.m */; };
+		C66E516A1803ED07002DCA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66E51691803ED07002DCA40 /* Images.xcassets */; };
+		C66E51711803ED07002DCA40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66E51701803ED07002DCA40 /* XCTest.framework */; };
+		C66E51721803ED07002DCA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66E514E1803ED07002DCA40 /* Foundation.framework */; };
+		C66E51731803ED07002DCA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66E51521803ED07002DCA40 /* UIKit.framework */; };
+		C66E517B1803ED07002DCA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C66E51791803ED07002DCA40 /* InfoPlist.strings */; };
+		C66E517D1803ED07002DCA40 /* Face_UnwinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E517C1803ED07002DCA40 /* Face_UnwinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C66E51741803ED07002DCA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66E51431803ED07002DCA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66E514A1803ED07002DCA40;
+			remoteInfo = "Face Unwinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C66E514B1803ED07002DCA40 /* Face Unwinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Unwinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66E514E1803ED07002DCA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C66E51501803ED07002DCA40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C66E51521803ED07002DCA40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C66E51561803ED07002DCA40 /* Face Unwinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Face Unwinder-Info.plist"; sourceTree = "<group>"; };
+		C66E51581803ED07002DCA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C66E515A1803ED07002DCA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C66E515C1803ED07002DCA40 /* Face Unwinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Face Unwinder-Prefix.pch"; sourceTree = "<group>"; };
+		C66E515D1803ED07002DCA40 /* VWWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWWAppDelegate.h; sourceTree = "<group>"; };
+		C66E515E1803ED07002DCA40 /* VWWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWAppDelegate.m; sourceTree = "<group>"; };
+		C66E51611803ED07002DCA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C66E51641803ED07002DCA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C66E51661803ED07002DCA40 /* VWWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWWViewController.h; sourceTree = "<group>"; };
+		C66E51671803ED07002DCA40 /* VWWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWViewController.m; sourceTree = "<group>"; };
+		C66E51691803ED07002DCA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C66E516F1803ED07002DCA40 /* Face UnwinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Face UnwinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66E51701803ED07002DCA40 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C66E51781803ED07002DCA40 /* Face UnwinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Face UnwinderTests-Info.plist"; sourceTree = "<group>"; };
+		C66E517A1803ED07002DCA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C66E517C1803ED07002DCA40 /* Face_UnwinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Face_UnwinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C66E51481803ED07002DCA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66E51511803ED07002DCA40 /* CoreGraphics.framework in Frameworks */,
+				C66E51531803ED07002DCA40 /* UIKit.framework in Frameworks */,
+				C66E514F1803ED07002DCA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66E516C1803ED07002DCA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66E51711803ED07002DCA40 /* XCTest.framework in Frameworks */,
+				C66E51731803ED07002DCA40 /* UIKit.framework in Frameworks */,
+				C66E51721803ED07002DCA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C66E51421803ED07002DCA40 = {
+			isa = PBXGroup;
+			children = (
+				C66E51541803ED07002DCA40 /* Face Unwinder */,
+				C66E51761803ED07002DCA40 /* Face UnwinderTests */,
+				C66E514D1803ED07002DCA40 /* Frameworks */,
+				C66E514C1803ED07002DCA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C66E514C1803ED07002DCA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66E514B1803ED07002DCA40 /* Face Unwinder.app */,
+				C66E516F1803ED07002DCA40 /* Face UnwinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C66E514D1803ED07002DCA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C66E514E1803ED07002DCA40 /* Foundation.framework */,
+				C66E51501803ED07002DCA40 /* CoreGraphics.framework */,
+				C66E51521803ED07002DCA40 /* UIKit.framework */,
+				C66E51701803ED07002DCA40 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C66E51541803ED07002DCA40 /* Face Unwinder */ = {
+			isa = PBXGroup;
+			children = (
+				C66E515D1803ED07002DCA40 /* VWWAppDelegate.h */,
+				C66E515E1803ED07002DCA40 /* VWWAppDelegate.m */,
+				C66E51601803ED07002DCA40 /* Main_iPhone.storyboard */,
+				C66E51631803ED07002DCA40 /* Main_iPad.storyboard */,
+				C66E51661803ED07002DCA40 /* VWWViewController.h */,
+				C66E51671803ED07002DCA40 /* VWWViewController.m */,
+				C66E51691803ED07002DCA40 /* Images.xcassets */,
+				C66E51551803ED07002DCA40 /* Supporting Files */,
+			);
+			path = "Face Unwinder";
+			sourceTree = "<group>";
+		};
+		C66E51551803ED07002DCA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C66E51561803ED07002DCA40 /* Face Unwinder-Info.plist */,
+				C66E51571803ED07002DCA40 /* InfoPlist.strings */,
+				C66E515A1803ED07002DCA40 /* main.m */,
+				C66E515C1803ED07002DCA40 /* Face Unwinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C66E51761803ED07002DCA40 /* Face UnwinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C66E517C1803ED07002DCA40 /* Face_UnwinderTests.m */,
+				C66E51771803ED07002DCA40 /* Supporting Files */,
+			);
+			path = "Face UnwinderTests";
+			sourceTree = "<group>";
+		};
+		C66E51771803ED07002DCA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C66E51781803ED07002DCA40 /* Face UnwinderTests-Info.plist */,
+				C66E51791803ED07002DCA40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C66E514A1803ED07002DCA40 /* Face Unwinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66E51801803ED07002DCA40 /* Build configuration list for PBXNativeTarget "Face Unwinder" */;
+			buildPhases = (
+				C66E51471803ED07002DCA40 /* Sources */,
+				C66E51481803ED07002DCA40 /* Frameworks */,
+				C66E51491803ED07002DCA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Face Unwinder";
+			productName = "Face Unwinder";
+			productReference = C66E514B1803ED07002DCA40 /* Face Unwinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C66E516E1803ED07002DCA40 /* Face UnwinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66E51831803ED07002DCA40 /* Build configuration list for PBXNativeTarget "Face UnwinderTests" */;
+			buildPhases = (
+				C66E516B1803ED07002DCA40 /* Sources */,
+				C66E516C1803ED07002DCA40 /* Frameworks */,
+				C66E516D1803ED07002DCA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66E51751803ED07002DCA40 /* PBXTargetDependency */,
+			);
+			name = "Face UnwinderTests";
+			productName = "Face UnwinderTests";
+			productReference = C66E516F1803ED07002DCA40 /* Face UnwinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C66E51431803ED07002DCA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VWW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zakk Hoyt";
+				TargetAttributes = {
+					C66E516E1803ED07002DCA40 = {
+						TestTargetID = C66E514A1803ED07002DCA40;
+					};
+				};
+			};
+			buildConfigurationList = C66E51461803ED07002DCA40 /* Build configuration list for PBXProject "Face Unwinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C66E51421803ED07002DCA40;
+			productRefGroup = C66E514C1803ED07002DCA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C66E514A1803ED07002DCA40 /* Face Unwinder */,
+				C66E516E1803ED07002DCA40 /* Face UnwinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C66E51491803ED07002DCA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66E51651803ED07002DCA40 /* Main_iPad.storyboard in Resources */,
+				C66E516A1803ED07002DCA40 /* Images.xcassets in Resources */,
+				C66E51621803ED07002DCA40 /* Main_iPhone.storyboard in Resources */,
+				C66E51591803ED07002DCA40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66E516D1803ED07002DCA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66E517B1803ED07002DCA40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C66E51471803ED07002DCA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66E51681803ED07002DCA40 /* VWWViewController.m in Sources */,
+				C66E515B1803ED07002DCA40 /* main.m in Sources */,
+				C66E515F1803ED07002DCA40 /* VWWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66E516B1803ED07002DCA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66E517D1803ED07002DCA40 /* Face_UnwinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C66E51751803ED07002DCA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66E514A1803ED07002DCA40 /* Face Unwinder */;
+			targetProxy = C66E51741803ED07002DCA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C66E51571803ED07002DCA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66E51581803ED07002DCA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C66E51601803ED07002DCA40 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66E51611803ED07002DCA40 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C66E51631803ED07002DCA40 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66E51641803ED07002DCA40 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C66E51791803ED07002DCA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66E517A1803ED07002DCA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C66E517E1803ED07002DCA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C66E517F1803ED07002DCA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C66E51811803ED07002DCA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Face Unwinder/Face Unwinder-Prefix.pch";
+				INFOPLIST_FILE = "Face Unwinder/Face Unwinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C66E51821803ED07002DCA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Face Unwinder/Face Unwinder-Prefix.pch";
+				INFOPLIST_FILE = "Face Unwinder/Face Unwinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C66E51841803ED07002DCA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Face Unwinder.app/Face Unwinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Face Unwinder/Face Unwinder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Face UnwinderTests/Face UnwinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C66E51851803ED07002DCA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Face Unwinder.app/Face Unwinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Face Unwinder/Face Unwinder-Prefix.pch";
+				INFOPLIST_FILE = "Face UnwinderTests/Face UnwinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C66E51461803ED07002DCA40 /* Build configuration list for PBXProject "Face Unwinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66E517E1803ED07002DCA40 /* Debug */,
+				C66E517F1803ED07002DCA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66E51801803ED07002DCA40 /* Build configuration list for PBXNativeTarget "Face Unwinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66E51811803ED07002DCA40 /* Debug */,
+				C66E51821803ED07002DCA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C66E51831803ED07002DCA40 /* Build configuration list for PBXNativeTarget "Face UnwinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66E51841803ED07002DCA40 /* Debug */,
+				C66E51851803ED07002DCA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C66E51431803ED07002DCA40 /* Project object */;
+}
